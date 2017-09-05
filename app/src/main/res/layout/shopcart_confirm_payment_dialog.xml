@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shopping_card_detail_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/comm_white"
+    android:orientation="vertical"
+    android:paddingBottom="200dp">
+
+    <TextView
+        android:id="@+id/shopCart_confirm_payment_tv_online"
+        style="@style/comm_layout_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/shopcart_confirm_payment_ischeck"
+        android:text="@string/shopCart_confirm_payment_online" />
+
+    <View
+        style="@style/line_horStyle"
+        android:layout_marginLeft="@dimen/layout_margin_m" />
+
+    <TextView
+        android:id="@+id/shopCart_confirm_payment_tv_offline"
+        style="@style/comm_layout_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/shopcart_confirm_payment_ischeck"
+        android:text="@string/shopCart_confirm_payment_offline" />
+</LinearLayout>

@@ -1,0 +1,183 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:minHeight="48dp"
+                tools:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                tools:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/comm_black" />
+            </android.support.v7.widget.Toolbar>
+
+
+            <RelativeLayout
+                android:id="@+id/personal_main_frg_rl_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/personal_main_frg_sd_icon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    fresco:actualImageScaleType="focusCrop"
+                    fresco:placeholderImage="@drawable/icon_back"
+                    fresco:placeholderImageScaleType="fitCenter"
+                    fresco:roundedCornerRadius="@dimen/layout_margin_lss"
+                    fresco:roundingBorderColor="@color/comm_circle_gary"
+                    fresco:roundingBorderWidth="1dp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/layout_margin_ml"
+                    android:layout_toRightOf="@+id/personal_main_frg_sd_icon"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/personal_main_frg_tv_name"
+                        style="@style/comm_title_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:id="@+id/personal_main_frg_tv_organization"
+                        style="@style/comm_title_gray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/personal_main_frg_tv_name"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:id="@+id/personal_main_frg_tv_role"
+                        style="@style/comm_title_gray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/personal_main_frg_tv_organization" />
+
+                    <TextView
+                        android:id="@+id/personal_main_frg_tv_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/comm_label_pink"
+                        android:singleLine="true"
+                        android:text="二维码"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin_m"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View style="@style/line_horStyle" />
+
+            <TextView
+                android:id="@+id/personal_main_frg_tv_up_referral"
+                style="@style/comm_layout_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_referral_up"
+                android:drawablePadding="@dimen/layout_margin_l"
+                android:drawableRight="@drawable/icon_arrow_right"
+                android:text="我的上转转诊" />
+
+            <View
+                android:id="@+id/personal_main_frg_view_divider_top"
+                style="@style/line_horStyle"
+                android:layout_marginLeft="@dimen/layout_margin_m" />
+
+            <TextView
+                android:id="@+id/personal_main_frg_tv_down_referral"
+                style="@style/comm_layout_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_referral_down"
+                android:drawablePadding="@dimen/layout_margin_l"
+                android:drawableRight="@drawable/icon_arrow_right"
+                android:text="我的下转转诊" />
+
+            <View style="@style/line_horStyle" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin_m"
+            android:orientation="vertical">
+
+            <View style="@style/line_horStyle" />
+
+            <TextView
+                android:id="@+id/personal_main_frg_tv_address"
+                style="@style/comm_layout_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_function"
+                android:drawablePadding="@dimen/layout_margin_l"
+                android:drawableRight="@drawable/icon_arrow_right"
+                android:text="@string/title_address_main" />
+
+            <View
+                style="@style/line_horStyle"
+                android:layout_marginLeft="@dimen/layout_margin_m" />
+
+            <TextView
+                android:id="@+id/personal_main_frg_tv_set"
+                style="@style/comm_layout_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_set"
+                android:drawablePadding="@dimen/layout_margin_l"
+                android:drawableRight="@drawable/icon_arrow_right"
+                android:text="设置" />
+
+            <View style="@style/line_horStyle" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.mobo.mobolibrary.ui.widget.empty.EmptyLayout
+        android:id="@+id/error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</FrameLayout>

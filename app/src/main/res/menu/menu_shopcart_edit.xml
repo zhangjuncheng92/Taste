@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_shopCart_edit"
+        android:orderInCategory="100"
+        android:title="编辑"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_shopCart_finish"
+        android:orderInCategory="100"
+        android:title="完成"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>

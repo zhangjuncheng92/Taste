@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/comm_layout_two"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/comm_title_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货人：" />
+
+            <TextView
+                android:id="@+id/shopCart_confirm_frg_tv_name"
+                style="@style/comm_title_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张俊承" />
+
+            <TextView
+                android:id="@+id/shopCart_confirm_frg_tv_phone"
+                style="@style/comm_title_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="13296677400" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/shopCart_confirm_frg_tv_address"
+            style="@style/comm_subtitle_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:text="中国湖北省武汉市东湖高新区光谷创业街留学生创业园东信路73号A栋2228室" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/shopCart_item_tv_checkAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/notification_item_isread"
+            android:gravity="center_vertical"
+            android:text="当前默认" />
+
+        <TextView
+            android:id="@+id/shopCart_item_tv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/shopCart_item_tv_delete"
+            android:drawableLeft="@drawable/notification_item_isread"
+            android:gravity="center_vertical"
+            android:text="编辑" />
+
+        <TextView
+            android:id="@+id/shopCart_item_tv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/notification_item_isread"
+            android:gravity="center_vertical"
+            android:text="删除" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

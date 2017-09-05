@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comm_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/personal_frg_title"
+                android:layout_centerVertical="true"
+                android:text="@string/personal_detail_icon" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/personal_main_frg_sd_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/layout_margin_ls"
+                android:layout_marginRight="@dimen/layout_margin_m"
+                android:layout_marginTop="@dimen/layout_margin_ls"
+                fresco:actualImageScaleType="focusCrop"
+                fresco:placeholderImageScaleType="fitCenter"
+                fresco:roundAsCircle="true"
+                fresco:roundedCornerRadius="@dimen/layout_margin_lss"
+                fresco:roundingBorderColor="@color/comm_circle_gary"
+                fresco:roundingBorderWidth="1dp" />
+        </RelativeLayout>
+
+        <View style="@style/line_horStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/personal_frg_title"
+                android:text="@string/personal_detail_name" />
+
+            <EditText
+                android:id="@+id/personal_frg_tv_name"
+                style="@style/personal_frg_content"
+                android:maxLength="10" />
+        </LinearLayout>
+
+        <View style="@style/line_horStyle" />
+
+        <LinearLayout
+            android:id="@+id/sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/personal_frg_title"
+                android:text="@string/personal_detail_sex" />
+
+            <TextView
+                android:id="@+id/personal_frg_tv_sex"
+                style="@style/personal_frg_content" />
+        </LinearLayout>
+
+        <View style="@style/line_horStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/personal_frg_title"
+                android:text="@string/personal_detail_phone" />
+
+            <EditText
+                android:id="@+id/personal_frg_tv_phone"
+                style="@style/personal_frg_content"
+                android:inputType="number"
+                android:maxLength="11" />
+        </LinearLayout>
+
+        <View style="@style/line_horStyle" />
+
+    </LinearLayout>
+</ScrollView>

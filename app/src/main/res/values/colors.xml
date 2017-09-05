@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d8b482</color>
+    <color name="colorPrimaryDark">#bca16d</color>
+    <color name="colorAccent">#d8b482</color>
+
+    <color name="search_background">@color/windowBackground</color>
+    <color name="popup_main_background">#30000000</color>
+
+    <color name="titlebelowstart">#e5f6f8</color>
+    <color name="titlebelowend">#9bcfd5</color>
+
+    <color name="comm_divider">@color/comm_white_gary</color>
+    <color name="comm_divider_gary">@color/comm_gary</color>
+    <color name="comm_divider_trans">@color/transparent</color>
+    <color name="comm_circle_gary">@color/comm_white_gary</color>
+    <color name="comm_white_bg_press">@color/comm_white_gary</color>
+    <color name="comm_white_bg_normal">@color/comm_white</color>
+    <color name="registration_pink">@color/comm_pink</color>
+
+    <color name="comm_title">@color/comm_black</color>
+    <color name="comm_subtitle">#A5A5A5</color>
+    <color name="comm_text">#666666</color>
+</resources>

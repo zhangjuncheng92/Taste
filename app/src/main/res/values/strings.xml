@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">品位盏</string>
+
+    <!-- 首页-->
+    <string name="tab_name_home">首页</string>
+    <string name="title_goods_main">商品列表</string>
+
+    <!-- 资讯-->
+    <string name="tab_name_info">资讯</string>
+
+    <!-- 消息-->
+    <string name="tab_name_notice">购物车</string>
+    <string name="shopCart_confirm_payment_online">在线支付</string>
+    <string name="shopCart_confirm_payment_offline">货到付款</string>
+
+    <!-- 我的-->
+    <string name="tab_name_my">我的</string>
+    <string name="title_address_main">地址管理</string>
+    <string name="title_address_add">添加收货地址</string>
+    <string name="address_receiver">收件人</string>
+    <string name="address_phone">手机号码</string>
+    <string name="address_area">所在地区</string>
+    <string name="address_detail">详细地址</string>
+    <string name="address_receiver_hint">请输入真实姓名</string>
+    <string name="address_phone_hint">请输入联系电话</string>
+    <string name="address_area_hint">请选择地区</string>
+    <string name="address_detail_hint">请输入详细街道地址</string>
+    <string name="address_default">设为默认地址</string>
+    <string name="address_default_hint">注：每次下单会使用该地址</string>
+
+
+    <!--我-->
+    <string name="personal_title">我</string>
+    <string name="personal_detail_title">个人信息</string>
+    <string name="personal_detail_sex">性别</string>
+    <string name="personal_detail_name">姓名</string>
+    <string name="personal_detail_age">年龄</string>
+    <string name="personal_detail_phone">联系电话</string>
+    <string name="personal_detail_organization">机构</string>
+    <string name="personal_detail_address">机构地址</string>
+    <string name="personal_detail_appellation">头衔</string>
+    <string name="personal_detail_icon">头像</string>
+    <string name="hierarchical_up_ID_card">身份证号</string>
+
+
+
+
+    <string name="hierarchical_resident_create_hint_place">请输入患者的籍贯</string>
+    <string name="hierarchical_resident_create_hint_community">请选择所属社区</string>
+    <string name="hierarchical_resident_create_hint_address">请输入患者家庭住址</string>
+    <string name="login_register_age_small">年龄格式不正确，请重新选择</string>
+    <string name="personal_sex_men">男</string>
+    <string name="personal_sex_women">女</string>
+</resources>

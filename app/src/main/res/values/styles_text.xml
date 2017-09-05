@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="comm_title_black">
+        <item name="android:textColor">@color/comm_black</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="comm_title_white">
+        <item name="android:textColor">@color/comm_white</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="comm_title_orange">
+        <item name="android:textColor">@color/comm_orange</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="comm_title_blue">
+        <item name="android:textColor">@color/comm_blue</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="comm_title_gray">
+        <item name="android:textColor">@color/comm_text</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="comm_subtitle_white">
+        <item name="android:textColor">@color/comm_white</item>
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+    </style>
+
+    <style name="comm_subtitle_pink">
+        <item name="android:textColor">@color/comm_pink</item>
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+    </style>
+
+    <style name="comm_subtitle_orange">
+        <item name="android:textColor">@color/comm_orange</item>
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+    </style>
+
+    <style name="comm_subtitle_gray">
+        <item name="android:textColor">@color/comm_subtitle</item>
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+    </style>
+
+    <style name="comm_subtitle_blue">
+        <item name="android:textColor">@color/comm_blue</item>
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+    </style>
+
+    <style name="comm_subtitle_black">
+        <item name="android:textColor">@color/comm_black</item>
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+    </style>
+
+
+    <style name="comm_body_pink">
+        <item name="android:textColor">@color/comm_pink</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="comm_body_gray">
+        <item name="android:textColor">@color/comm_text</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="comm_body_white">
+        <item name="android:textColor">@color/comm_white</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="comm_body_black">
+        <item name="android:textColor">@color/comm_black</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="comm_body_orange">
+        <item name="android:textColor">@color/comm_orange</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="comm_body_blue">
+        <item name="android:textColor">@color/comm_blue</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+
+    <style name="comm_ten_blue">
+        <item name="android:textColor">@color/comm_blue</item>
+        <item name="android:textSize">@dimen/text_size_ten</item>
+    </style>
+
+    <style name="comm_ten_gary">
+        <item name="android:textColor">@color/comm_gary</item>
+        <item name="android:textSize">@dimen/text_size_ten</item>
+    </style>
+
+
+    <style name="main_tab_text"> <!-- 首页导航栏文字 -->
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/main_tab_text_color</item>
+    </style>
+
+    <style name="comm_main_two">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:paddingTop">@dimen/layout_padding_ls</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <style name="comm_title_one" parent="comm_title_blue"> <!-- 普通标题风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_margin">@dimen/layout_margin_l</item>
+        <item name="android:drawablePadding">@dimen/layout_padding_l</item>
+    </style>
+
+    <style name="regist_hospital_list_label">
+        <item name="android:textColor">@color/registration_hospital_open</item>
+        <item name="android:textSize">@dimen/text_size_ten</item>
+        <item name="android:paddingBottom">@dimen/layout_padding_lss</item>
+        <item name="android:paddingLeft">@dimen/layout_padding_ls</item>
+        <item name="android:paddingRight">@dimen/layout_padding_ls</item>
+        <item name="android:paddingTop">@dimen/layout_padding_lss</item>
+    </style>
+
+
+    <style name="comm_select_style">
+        <item name="android:textColor">@color/comm_white</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:layout_marginLeft">@dimen/layout_padding_xxxh</item>
+        <item name="android:layout_marginRight">@dimen/layout_padding_xxxh</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@drawable/comm_select_orange</item>
+    </style>
+
+    <style name="personal_detail_title"> <!-- 普通标题风格2 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/layout_padding_l</item>
+    </style>
+
+    <!-- 我的账户-->
+    <style name="comm_select_style2">
+        <item name="android:textColor">@color/comm_black</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:layout_marginLeft">@dimen/layout_padding_xxxh</item>
+        <item name="android:layout_marginRight">@dimen/layout_padding_xxxh</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@drawable/comm_select_grey</item>
+    </style>
+
+    <!-- 个人中心-->
+    <!-- 个人中心功能列表字体-->
+    <style name="personal_item_text" parent="comm_layout_three">
+        <item name="android:textColor">@color/comm_text</item>
+        <item name="android:drawableRight">@drawable/icon_arrow_right</item>
+        <item name="android:drawablePadding">@dimen/layout_padding_l</item>
+        <item name="android:onClick">OnHeaderItemClick</item>
+    </style>
+
+
+    <!-- 个人中心-->
+    <style name="personal_frg_title">
+        <item name="android:textColor">@color/comm_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingRight">@dimen/layout_padding_ls</item>
+        <item name="android:paddingLeft">@dimen/layout_padding_m</item>
+        <item name="android:paddingTop">@dimen/layout_padding_l</item>
+        <item name="android:paddingBottom">@dimen/layout_padding_l</item>
+    </style>
+
+    <style name="personal_frg_content">
+        <item name="android:textColor">@color/comm_subtitle</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:paddingRight">@dimen/layout_padding_m</item>
+        <item name="android:paddingTop">@dimen/layout_padding_l</item>
+        <item name="android:paddingBottom">@dimen/layout_padding_l</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="referral_info_status_txt" parent="comm_subtitle_black">
+        <item name="android:textColor">@color/referral_info_status_txt</item>
+    </style>
+
+
+    <!-- 我的订单按钮-->
+    <style name="study_order_item_button">
+        <item name="android:textColor">@color/comm_white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/comm_select_orange</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingRight">@dimen/layout_padding_m</item>
+        <item name="android:paddingLeft">@dimen/layout_padding_m</item>
+        <item name="android:paddingTop">@dimen/layout_padding_ls</item>
+        <item name="android:paddingBottom">@dimen/layout_padding_ls</item>
+    </style>
+
+    <!--按钮风格，浅黄色-->
+    <style name="comm_select_yellow" parent="comm_title_white">
+        <item name="android:layout_marginLeft">@dimen/layout_padding_m</item>
+        <item name="android:layout_marginRight">@dimen/layout_padding_m</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/comm_select_yellow</item>
+    </style>
+
+    <!--按钮风格，深黄色-->
+    <style name="comm_select_yellow_dark" parent="comm_title_white">
+        <item name="android:layout_marginLeft">@dimen/layout_padding_m</item>
+        <item name="android:layout_marginRight">@dimen/layout_padding_m</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/comm_select_yellow_dark</item>
+    </style>
+</resources>
